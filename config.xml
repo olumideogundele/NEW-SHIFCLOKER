@@ -15,6 +15,7 @@ Olumide Francis</author>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <gap:platform name="winphone" />
+ <preference name="permissions" value="none"/>
  <preference name="android-build-tool" value="gradle" />
 <preference name="orientation" value="default"/>
 <preference name="target-device" value="universal"/>
@@ -41,17 +42,20 @@ Olumide Francis</author>
 <preference name="FadeSplashScreen" value="false"/>
 <preference name="ShowSplashScreenSpinner" value="false"/>
 
-
 <icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 		
- 
+ <gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
 	
 	
-<feature name="http://api.phonegap.com/1.0/file-transfer"/>
+	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
  <feature name="http://api.phonegap.com/1.0/network" />
 <feature name="http://api.phonegap.com/1.0/camera" />
 <feature name="http://api.phonegap.com/1.0/notification" />
@@ -75,7 +79,6 @@ Olumide Francis</author>
 <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.4.0"/>
 <gap:plugin name="cordova-plugin-detect-screenshot" source="npm" spec="1.0.4"/>
 <gap:plugin name="cordova-plugin-ignoremuteswitch" source="npm" spec="~1.0.1"/>
- 
 
  
 
