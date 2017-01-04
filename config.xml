@@ -15,17 +15,32 @@ olumide FRANCIS</author>
     <gap:platform name="android" />
     <gap:platform name="winphone" />
  <preference name="android-build-tool" value="gradle" />
- <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="false" />
-    <preference name="DisallowOverscroll" value="true"/>
-    <preference name="disallowOverscroll" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="prerendered-icon" value="false" />
-    <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-installLocation" value="auto" />
-    <preference name="BackgroundColor" value="0xffffffff "/>
-    <preference name="KeepRunning" value="true"/>
+ <preference name="android-build-tool" value="gradle" />
+<preference name="orientation" value="default"/>
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="false"/>
+<preference name="webviewbounce" value="true"/>
+<preference name="prerendered-icon" value="true"/>
+<preference name="stay-in-webview" value="false"/>
+<preference name="detect-data-types" value="true"/>
+<preference name="exit-on-suspend" value="false"/>
+<preference name="disable-cursor" value="false"/>
+<preference name="android-minSdkVersion" value="14"/>
+<preference name="android-installLocation" value="auto"/>
+<preference name="android-fitsSystemWindows" value="true"/>
+<preference name="android-windowSoftInputMode" value="adjustResize"/>
+<preference name="phonegap-version" value="cli-6.3.0"/>
+<preference name="LogLevel" value="VERBOSE"/>
+<preference name="AndroidLaunchMode" value="singleTop"/>
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+<preference name="StatusBarOverlaysWebView" value="false"/>
+<preference name="StatusBarBackgroundColor" value="#000000"/>
+<preference name="StatusBarStyle" value="lightcontent"/>
+<preference name="AutoHideSplashScreen" value="true"/>
+<preference name="SplashScreenDelay" value="1000"/>
+<preference name="FadeSplashScreen" value="false"/>
+<preference name="ShowSplashScreenSpinner" value="false"/>
+
 	
 	
 <icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
