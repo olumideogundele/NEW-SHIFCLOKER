@@ -7,54 +7,64 @@
 	version   = "1.0">
     <name>WORKING APP</name>
     <description>
-WORKINF SHIFTCLOCKER	</description>
+WORKING SHIFTCLOCKER	</description>
 <author href="google.com" email="olumideogundele@gmail.com">
 olumide FRANCIS</author>
  
- 
+ <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
  <preference name="android-build-tool" value="gradle" />
-<preference name="orientation" value="default"/>
-<preference name="target-device" value="universal"/>
-<preference name="fullscreen" value="false"/>
-<preference name="webviewbounce" value="true"/>
-<preference name="prerendered-icon" value="true"/>
-<preference name="stay-in-webview" value="false"/>
-<preference name="detect-data-types" value="true"/>
-<preference name="exit-on-suspend" value="false"/>
-<preference name="disable-cursor" value="false"/>
-<preference name="android-minSdkVersion" value="14"/>
-<preference name="android-installLocation" value="auto"/>
-<preference name="android-fitsSystemWindows" value="true"/>
-<preference name="android-windowSoftInputMode" value="adjustResize"/>
-<preference name="phonegap-version" value="cli-6.3.0"/>
-<preference name="LogLevel" value="VERBOSE"/>
-<preference name="AndroidLaunchMode" value="singleTop"/>
-<preference name="InAppBrowserStorageEnabled" value="true"/>
-<preference name="StatusBarOverlaysWebView" value="false"/>
-<preference name="StatusBarBackgroundColor" value="#000000"/>
-<preference name="StatusBarStyle" value="lightcontent"/>
-<preference name="AutoHideSplashScreen" value="true"/>
-<preference name="SplashScreenDelay" value="1000"/>
-<preference name="FadeSplashScreen" value="false"/>
-<preference name="ShowSplashScreenSpinner" value="false"/>
-
+ <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="BackgroundColor" value="0xffffffff "/>
+    <preference name="KeepRunning" value="true"/>
+	
+	
 <icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 		
- <gap:splash src="images/logo.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
+ <gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" /> <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" /> <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" /> <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" /> <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
 	
 	
 	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
 	
+
+
+    <plugin name="cordova-plugin-battery-status" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-vibration" />
+
+
+
+
 	
 	
 <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
