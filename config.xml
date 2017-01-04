@@ -5,23 +5,20 @@
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
 	version   = "1.0">
-    <name>SHIFTCLOCKER </name>
+    <name>BADGE WORKING</name>
     <description>
-Punch in made easy!!!	</description>
+BADGE WORKING WITH FAITH	</description>
 <author href="google.com" email="olumideogundele@gmail.com">
-Olumide Francis</author>
-
-
-    <gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="winphone" />
+olumide FRANCIS</author>
+ 
+ 
  <preference name="android-build-tool" value="gradle" />
 <preference name="orientation" value="default"/>
 <preference name="target-device" value="universal"/>
 <preference name="fullscreen" value="false"/>
 <preference name="webviewbounce" value="true"/>
 <preference name="prerendered-icon" value="true"/>
-<preference name="stay-in-webview" value="true"/>
+<preference name="stay-in-webview" value="false"/>
 <preference name="detect-data-types" value="true"/>
 <preference name="exit-on-suspend" value="false"/>
 <preference name="disable-cursor" value="false"/>
@@ -47,25 +44,23 @@ Olumide Francis</author>
 	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 		
- 
+ <gap:splash src="images/logo.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
+	
 	
 	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
- <feature name="http://api.phonegap.com/1.0/network" />
-<feature name="http://api.phonegap.com/1.0/camera" />
-<feature name="http://api.phonegap.com/1.0/notification" />
-<feature name="http://api.phonegap.com/1.0/geolocation" />
-<feature name="http://api.phonegap.com/1.0/media" />
-<feature name="http://api.phonegap.com/1.0/contacts" />
-<feature name="http://api.phonegap.com/1.0/file" />
-<feature name="http://api.phonegap.com/1.0/battery" />
-<feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
 	
 	
 	
 <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
 <gap:plugin name="cordova-plugin-console" source="npm" spec="~1.0.3"/>
 <gap:plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1"/>
-<!--<gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.2"/> -->
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.2"/>
 <gap:plugin name="cordova-plugin-device" source="npm" spec="~1.1.2"/>
 <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.2"/>
 <gap:plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.1"/>
@@ -76,7 +71,9 @@ Olumide Francis</author>
 
  
 
- <access origin="*" subdomains="true" />
+<allow-intent href="https://*/*"/>
+<allow-navigation href="https://*/*"/>
+<access origin="*"/>
 	
 
     
