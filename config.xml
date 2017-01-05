@@ -5,7 +5,7 @@
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
 	version   = "1.0">
-    <name>WORKING APPLICATION.|.</name>
+    <name>WORKING APPLICATION.||.</name>
     <description>
 WORKING SHIFTCLOCKER	</description>
 <author href="google.com" email="olumideogundele@gmail.com">
@@ -21,16 +21,16 @@ olumide FRANCIS</author>
 <preference name="target-device" value="universal"/>
 <preference name="fullscreen" value="false"/>
   <preference name="disallowOverscroll" value="true" />
-<preference name="webviewbounce" value="false"/>
+ 
 <preference name="prerendered-icon" value="false"/>
 <preference name="KeepRunning" value="true"/>
-<preference name="stay-in-webview" value="true"/>
+ 
 <preference name="detect-data-types" value="true"/>
 <preference name="exit-on-suspend" value="false"/>
 <preference name="disable-cursor" value="false"/>
 <preference name="android-minSdkVersion" value="14"/>
 <preference name="android-installLocation" value="auto"/>
-<preference name="android-windowSoftInputMode" value="adjustResize"/>
+ 
 <preference name="phonegap-version" value="cli-6.3.0"/>
 <preference name="StatusBarOverlaysWebView" value="false"/>
 <preference name="StatusBarBackgroundColor" value="#000000"/>
