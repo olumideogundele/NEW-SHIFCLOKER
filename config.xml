@@ -4,7 +4,7 @@
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
 	version   = "1.0">
-    <name>Shift Clocker</name>
+    <name>ShiftClocker INC</name>
     <description>
 Shift Clocking Made easy	</description>
 <author href="google.com" email="aderinwaletunde@gmail.com">
@@ -13,7 +13,7 @@ Tunde Aderinwale
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <gap:platform name="winphone" />
-    <preference name="phonegap-version" value="3.3.0" />
+   <preference name="phonegap-version" value="cli-6.3.0"/>
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
@@ -31,17 +31,39 @@ Tunde Aderinwale
 	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 		
-	<gap:splash src="images/logo.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
+	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
 	
 	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
-
-    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+	
+	
+	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
+	<plugin name="cordova-plugin-geolocation" />
+	   <plugin name="cordova-plugin-battery-status" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-vibration" />
+		
+<!--    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
     <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
     <gap:plugin name="org.apache.cordova.geolocation"  />
     <gap:plugin name="org.apache.cordova.dialogs"  />
@@ -49,7 +71,11 @@ Tunde Aderinwale
     <gap:plugin name="org.apache.cordova.network-information"  />
     <gap:plugin name="org.apache.cordova.console"  />
     <gap:plugin name="org.apache.cordova.inappbrowser"  />
-    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.network-information" />-->
+	
+	
+	
+	
     <access origin="*" subdomains="true" />
 
     
