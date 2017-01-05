@@ -1,6 +1,11 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.beerportfolio.beerportfoliopro" version="5.2.5">
-
-    <preference name="phonegap-version" value="cli-5.2.0" />
+ 
+ 
+ <widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="1"
+	version   = "1.0">
+	<preference name="phonegap-version" value="cli-6.3.0"/>
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
