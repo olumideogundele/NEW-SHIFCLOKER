@@ -24,7 +24,7 @@ olumide FRANCIS</author>
 <preference name="webviewbounce" value="false"/>
 <preference name="prerendered-icon" value="false"/>
 <preference name="KeepRunning" value="true"/>
-<preference name="stay-in-webview" value="false"/>
+<preference name="stay-in-webview" value="true"/>
 <preference name="detect-data-types" value="true"/>
 <preference name="exit-on-suspend" value="false"/>
 <preference name="disable-cursor" value="false"/>
