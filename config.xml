@@ -15,8 +15,8 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 	
-    <name>Beer</name>
-    <description>Beer Closer</description>
+    <name>SHIFTCLOCKER INC</name>
+    <description>Punch in made easy</description>
     <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
