@@ -16,7 +16,7 @@
     <name>SHIFTCLOCKER INC (2.0)</name>
     <description>Punch in made easy</description>
     <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
-    <content src="index.html" />
+    <!--<content src="index.html" />-->
     <preference name="permissions" value="none" />
 	<preference name="android-build-tool" value="gradle" />
     <preference name="orientation" value="default" />
@@ -29,12 +29,10 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-	
-    <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="AutoHideSplashScreen" value="true"/>
-<preference name="SplashScreenDelay" value="1000"/>
-<preference name="FadeSplashScreen" value="false"/>
+<preference name="SplashScreenDelay" value="2000"/>
+<preference name="FadeSplashScreen" value=""/>
 <preference name="ShowSplashScreenSpinner" value="false"/>
 
 	<preference name="disable-cursor" value="false" />
